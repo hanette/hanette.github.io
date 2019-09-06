@@ -9,9 +9,9 @@ body {
 
 /* Style the header */
 .header {
-  padding: 90px;
+  padding: 80px;
   text-align: center;
-  background: #CD5C5C;
+  background: #658A93;
   color: white;
 }
 
@@ -19,11 +19,14 @@ body {
 .header h1 {
   font-size: 10vw;
 }
+.header p {
+    font-size:5vw;
+}
 
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #936E65;
 }
 
 /* Style the navigation bar links */
