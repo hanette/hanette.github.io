@@ -7,23 +7,23 @@ body {
   margin: 0;
 }
 
-/* Style the header */
+/* header */
 .header {
-  padding: 80px;
+  padding: 0px;
   text-align: center;
   background: #658A93;
   color: white;
 }
 
-/* Increase the font size of the h1 element */
 .header h1 {
   font-size: 10vw;
 }
+
 .header p {
     font-size:5vw;
 }
 
-/* Style the top navigation bar */
+/* navigation bar */
 .navbar {
   overflow: hidden;
   background-color: #936E65;
