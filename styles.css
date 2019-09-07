@@ -10,18 +10,20 @@ body {
 /* header */
 .header {
   height: 100vh;
-  padding: 80px;
+  padding-top: 30vh;
   text-align: center;
   background: #658A93;
   color: white;
 }
 
 .header h1 {
-  font-size: 1vw;
+  font-size: 10vw;
+  margin-bottom: 0px;
 }
 
 .header p {
-    font-size: 0.5vw;
+    margin-top: 0px;
+    font-size: 3vw;
 }
 
 /* ============================== */
