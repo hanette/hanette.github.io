@@ -44,7 +44,7 @@ body {
 }
 
 .navbar a:hover { /* Change color on hover */
-  background-color: #ddd;
+  background-color: #5C483F;
   color: black;
 }
 
