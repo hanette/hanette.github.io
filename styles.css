@@ -9,7 +9,7 @@ body {
 /* ============================== */
 /* header */
 .header {
-  padding: 100%;
+  height: 100vh;
   text-align: center;
   background: #658A93;
   color: white;
@@ -44,7 +44,7 @@ body {
 }
 
 .navbar a:hover { /* Change color on hover */
-  background-color: #836558;
+  background-color: #966965;
   color: black;
 }
 
