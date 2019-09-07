@@ -9,8 +9,7 @@ body {
 /* ============================== */
 /* header */
 .header {
-    min-width: 100%;
-  min-height: 100%;
+  padding: 100%;
   text-align: center;
   background: #658A93;
   color: white;
@@ -45,7 +44,7 @@ body {
 }
 
 .navbar a:hover { /* Change color on hover */
-  background-color: #937365;
+  background-color: #836558;
   color: black;
 }
 
