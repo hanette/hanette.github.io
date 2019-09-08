@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", "Lucida Console", monospace;
+  margin: 0;
+}
+
+/* ============================== */
+/* navigation bar */
+#navbar {
+  overflow: hidden;
+  background-color: #201E1E;
+  opacity: .85;
+  border-bottom: solid;
+  border-color: #6F6F6F;
+}
+
+#navbar a { /* Style the navigation bar links */
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+#navbar a.right { /* Right-aligned link */
+  float: right;
+}
+
+#navbar a:hover { /* Change color on hover */
+  font-weight: bold;
+}
+
+/* ============================== */
+/* header */
+.header {
+  padding-top: 20vh;
+  height: 100vh;
+  text-align: center;
+  background: #87A59D;
+  color: white;
+}
+
+.header h1 {
+  font-size: 10vw;
+  margin-bottom: 0px;
+}
+
+.header p {
+    margin-top: 0px;
+    font-size: 3vw;
+}
+
+/* ============================== */
+/* sticky navbar to scroll */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: #1B1F1E;
+    color: white;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* ============================== */
+/* Project Section */
+.projects{
+    text-align: left;
+    float: left;
+    display: flex;
+}
+
+/* left */
+.pleft {
+    padding-bottom: 10px;
+    width: 30%;
+}
+
+.pleft p:hover {
+    color: #00000F;
+}
+
+/* right */
+.pright {
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.pright p:hover {
+    color: #00000F;
+}
+
+/* ============================== */
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #FAF2E4;
+}
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side1 {
+  text-align: left;
+  flex: 50%;
+  padding-left: 50px;
+}
+
+/* Main column */
+.side2 {
+  text-align: left;
+  flex: 50%;
+  padding-left: 50px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other*/
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
