@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Courier New", "Lucida Console", monospace;
+  font-family: 'Didact Gothic', sans-serif;
   margin: 0;
 }
 
@@ -87,7 +87,7 @@ body {
 /* left */
 .pleft {
     padding-bottom: 10px;
-    width: 30%;
+    width: 50%;
 }
 
 .pleft p:hover {
