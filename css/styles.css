@@ -143,18 +143,24 @@ body {
 /* ============================== */
 /* Image Gallery */
 
-div.gallery:hover {
-  border: 1px solid #777;
+.gallery:hover {
+  background-color: #111514;
 }
 
-div.gallery img {
+.gallery img {
   width: 100%;
   height: auto;
 }
 
-div.desc {
+.desc {
   padding: 15px;
   text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
