@@ -78,14 +78,14 @@ body {
 .crophome {
     height: 100vh;
     background-image: linear-gradient(rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,1)),
-    url('../assets/homecover.jpg');
+    url('https://github.com/hanette/hanette.github.io/blob/master/assets/homecover.JPG');
     background-size: cover;
     overflow: hidden;
 }
 .cropproj {
     height: 35vh;
     background-image: linear-gradient(rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,1)),
-    url('../assets/projectcover.jpg');
+    url('/assets/projectcover.jpg');
     background-size: cover;
     overflow: hidden;
 }
