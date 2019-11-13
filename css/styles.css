@@ -161,8 +161,9 @@ body {
 }
 
 .desc {
-  padding: 15px;
+  padding: 14px;
   text-align: center;
+  font-size: 14px;
 }
 
 .responsive {
