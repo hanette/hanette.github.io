@@ -85,7 +85,7 @@ body {
 .cropproj {
     height: 35vh;
     background-image: linear-gradient(rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,1)),
-    url('/assets/projectcover.jpg');
+    url('/assets/projectcover.JPG');
     background-size: cover;
     overflow: hidden;
 }
