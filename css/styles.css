@@ -76,7 +76,7 @@ body {
 
 .titlea {
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 59%;
   font-size: 10vw;
 }
@@ -216,9 +216,6 @@ h2 {
     overflow: hidden;
   }
 
-  .header {
-    height: 35vh;
-  }
 
   .cropabout {
       left: 50%;
