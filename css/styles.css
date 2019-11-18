@@ -40,7 +40,7 @@ body {
   position: relative;
   height: 100vh;
   text-align: center;
-  background: #87A59D;
+  background: #1B1F1E;
   color: white;
 }
 
@@ -85,7 +85,7 @@ body {
 .crophome {
     height: 100vh;
     background-image: linear-gradient(rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,1)),
-    url('../assets/homecover.JPG');
+    url('../assets/me4.JPG');
     background-size: cover;
     overflow: hidden;
 }
@@ -115,6 +115,8 @@ body {
 }
 
 .content {
+    /* border-top: 5px solid white; */
+    font-size: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 60px;
@@ -133,6 +135,7 @@ body {
     text-align: left;
     float: left;
     display: flex;
+    background: #1B1F1E;
 }
 
 /* left */
@@ -201,9 +204,10 @@ h2 {
 /* ============================== */
 /* Footer */
 .footer {
-  padding: 5px;
-  text-align: center;
-  background: #FAF2E4;
+    clear:both;
+    padding: 10px;
+    text-align: center;
+    background: #FAF2E4;
 }
 
 
