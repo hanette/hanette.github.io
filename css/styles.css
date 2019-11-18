@@ -134,7 +134,7 @@ body {
 .projects{
     text-align: left;
     float: left;
-    display: flex;
+    /* display: flex; */
     background: #1B1F1E;
 }
 
@@ -247,5 +247,29 @@ h2 {
 
   .row {
     flex-direction: column;
+  }
+
+  .titlemain{
+      font-size: 13vw;
+      left: 15%;
+  }
+
+  .subtitle{
+      font-size: 3vw;
+      top: 37%;
+      left: 13%;
+
+  }
+
+  .pleft {
+      width: 100%;
+  }
+
+  .pright {
+      width: 100%;
+  }
+
+  .project{
+      width: 100%;
   }
 }
