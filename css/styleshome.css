@@ -116,7 +116,7 @@ body {
 .photoplay{
     height: 50vh;
     /* background: #FF5733; */
-    background-image: url('../assets/playtest.jpg');
+    background-image: url('../assets/playtest.JPG');
     /* Create the parallax scrolling effect */
       background-attachment: fixed;
       background-position: center;
