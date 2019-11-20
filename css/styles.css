@@ -88,6 +88,7 @@ body {
     url('../assets/me4.jpg');
     background-size: cover;
     overflow: hidden;
+
 }
 .cropproj {
     height: 100vh;
@@ -220,6 +221,10 @@ h2 {
     overflow: hidden;
   }
 
+  .crophome {
+      background-image: linear-gradient(rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,1)),
+      url('../assets/me4.jpg');
+  }
 
   .cropabout {
       left: 50%;

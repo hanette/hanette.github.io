@@ -5,59 +5,57 @@
 <head>
     <title>Hanette</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link href="css/styleshome.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
     <!-- navigation bar -->
     <div id="navbar">
-        <center>
-            <a href="index.html">HOME</a>
-            <a href="projects.html">PROJECTS</a>
-            <a href="about.html">ABOUT</a>
-            <a href="#contact">CONTACT</a>
-        </center>
+        <a href="home.html">HOME</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="about.html"><b>CONTACT</b></a>
     </div>
 
     <!-- header -->
-    <div class="header">
-        <div class="cropabout"></div>
-        <div class = "titlea"><center>ABOUT</center></div>
+    <div class="mainheader" style="height: 50vh">
+        <!-- <div class="crophome"></div> -->
+        <div class = "titlemain" style="left:30%; top: 30%"><b>CONTACT</b>
+        </div>
     </div>
 
-
-    <!-- content -->
+    <!-- contact -->
     <div class="content">
-        <br>
-        <h1>HANETTE LE</h1>
-        <p>Hanette Le is an undergraduate student in University of California, Santa Cruz studying for her Bachelor of Science in Computer Science: Computer Game Design  while doing graphic design and game projects on the side as her hobby.</p>
+        <h1>LET'S TALK.</h1>
 
-        <h1>EDUCATION<h1>
-            <h2>University of California, Santa Cruz</h2>
-            <p>B.S. in Computer Science: Computer Game Design<br>
-            SEPTEMBER 2016 − JUNE 2020<br>
-            GPA: 3.73</p>
-            <h2>Piedmont Hills High School − San Jose</h2>
-            <p>OCTOBER 2012 −  MAY 2016<br>
-            GPA: 3.65</p>
-            <br>
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">FIRST NAME</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <!-- footer -->
-  <div class="footer">
-      <p>
-          <a href="https://www.instagram.com/hanette.le/" style = "text-decoration: none;">
-              <img src="assets/instagram-icon.png" style=""width="31" height="31">
-          </a>
-          <a href="https://www.linkedin.com/in/hanette-le-365aa1166" style = "text-decoration: none;">
-              <img src="assets/linkedin-icon.png" style=""width="30" height="30">
-          </a>
-          <a href="https://github.com/hanette" style = "text-decoration: none;">
-              <img src="assets/github-icon.png" style=""width="33" height="33">
-          </a>
-      </p>
-  </div>
+                <label for="lname">LAST NAME</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">TOPIC</label>
+                <select id="request" name="request">
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="graphic">Graphic Design Request</option>
+
+                    <option value="logo">Logo Request</option>
+                    <option value="2d">2D/3D Art Request</option>
+                    <option value="program">Programming Request</option>
+                    <option value="other">Others</option>
+                </select>
+
+                <label for="subject">SUBJECT</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <b><input type="submit" value="SUBMIT"></b>
+            </form>
+        </div>
+    </div>
+
   <!-- script added last -->
 <script type=text/javascript src="js/main.js"></script>
 </body>
