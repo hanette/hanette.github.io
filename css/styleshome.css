@@ -255,4 +255,12 @@ input[type=reset]:hover {
   .photome{
       background-attachment: scroll;
   }
+
+  .photoplay{
+      background-attachment: scroll;
+  }
+
+  .photoproj{
+      background-attachment: scroll;
+  }
 }
