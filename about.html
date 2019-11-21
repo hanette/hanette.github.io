@@ -30,14 +30,17 @@
         <h1>LET'S TALK.</h1>
 
         <div class="container">
-            <form action="mail.php" method="POST">
-                <p>FIRST NAME</p> <input type="text" name="fname" placeholder="John">
+            <form action="mail.php" method="post" name="contactform" class="form-box">
+                <label for="fname">FIRST NAME</label>
+                <input type="text" name="fname" placeholder="John"><br>
 
-                <p>LAST NAME</p> <input type="text" name="lname" placeholder="Smith">
+                <label for="lname">LAST NAME</label>
+                <input type="text" name="lname" placeholder="Smith"><br>
 
-                <p>EMAIL</p> <input type="text" name="mail" placeholder="user@email.com">
+                <label for="mail">EMAIL</label>
+                <input type="text" name="mail" placeholder="user@email.com"><br>
 
-                <p>SUBJECT</p>
+                <label for="subject">SUBJECT</label>
                 <select name="subject">
                     <option disabled selected value> -- select an option -- </option>
                     <option value="graphic">Graphic Design Request</option>
@@ -45,9 +48,10 @@
                     <option value="2d">2D/3D Art Request</option>
                     <option value="program">Programming Request</option>
                     <option value="other">Others</option>
-                </select>
+                </select><br>
 
-                <p>MESSAGE</p> <textarea name="message" placeholder="Write something.." style="height:200px"></textarea>
+                <label for="message">MESSAGE</label>
+                <textarea name="message" placeholder="Write something.." style="height:200px"></textarea>
 
                 <b><input type="submit" value="SUBMIT"></b>
                 <b><input type="reset" value="RESET"></b>

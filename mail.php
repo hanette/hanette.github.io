@@ -19,7 +19,7 @@ if(isset($_POST['email'])) {
         !isset($_POST['mail']) ||
         !isset($_POST['subject']) ||
         !isset($_POST['message'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted.');
+        died('Please fill in all sections.');
     }
 
     $fname = $_POST['fname'];
@@ -59,7 +59,7 @@ if(isset($_POST['email'])) {
 
     $email_message .= "First Name: ".clean_string($fname)."\n";
     $email_message .= "Last Name: ".clean_string($lname)."\n";
-    $email_message .= "Email: ".clean_string($mail)."\n";
+    $email_message .= "Email: ".clean_string($email)."\n";
     $email_message .= "Subject: ".clean_string($subject)."\n";
     $email_message .= "Message: ".clean_string($message)."\n";
 
@@ -71,17 +71,8 @@ if(isset($_POST['email'])) {
     if($send){
         echo "<br>";
         echo "Your message has been sent!";
+    } else{
+        echo "Error! Please try again."
     }
-}
-?>
-<!DOCTYPE html>
-<html>
-<!-- include your own success html here -->
-<body>
-    Thank you for contacting us. We will be in touch with you very soon.
-</body>
-</html>
-<?php
-
 }
 ?>
