@@ -275,7 +275,7 @@ input[type=reset]:hover {
 /* Responsive layout */
 
 @media only screen and (max-width: 752px) {
-    .titlemain {
+    .title {
       top: 20%;
       left: 3%;
       font-size: 14vw;
@@ -297,15 +297,6 @@ input[type=reset]:hover {
   .column{
       width:100%;
   }
-
-  .pleft{
-      width:100%;
-  }
-
-  .pright{
-      width:100%;
-  }
-
 
   .galleryresponsive {
     width: 100%;
