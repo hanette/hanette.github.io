@@ -259,7 +259,7 @@ input[type=reset]:hover {
 /* ============================== */
 /* Slideshow Section */
 * {box-sizing: border-box;}
-.mySlides1, .mySlides2 {display: none;}
+.mySlides {display: none;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -391,6 +391,10 @@ img {vertical-align: middle;}
   .column{
       width:100%;
   }
+
+  .slideshowContainer{
+     margin: 0px;
+ }
 
   .galleryresponsive {
     width: 100%;
