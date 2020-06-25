@@ -122,7 +122,7 @@ body {
 .photome{
     height: 60vh;
     width: 100%;
-    background-image: url('../assets/me2.JPG');
+    background-image: url('../assets/me2.jpg');
     margin-top: 20px;
     background-attachment: scroll;
     background-position: center;
