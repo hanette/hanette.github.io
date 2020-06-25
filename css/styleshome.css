@@ -50,7 +50,7 @@ body {
   text-align: center;
   padding-top: 5%;
   /* left: 25%; */
-  font-size: 9vw;
+  font-size: 6vw;
 }
 
 .subtitle {
@@ -77,21 +77,6 @@ body {
   clear: both;
 }
 
-.crophome {
-    height: 100vh;
-    background-image: linear-gradient(rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,0), rgba(27,31,30,1)),
-    url('../assets/me3.jpg');
-    background-size: cover;
-    overflow: hidden;
-    /* Set a specific height */
-    min-height: 500px;
-
-     /* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;      background-size: cover;
-}
-
 
 /* ============================== */
 /* sticky navbar to scroll */
@@ -112,8 +97,6 @@ body {
     font-size: 25px;
     padding-top: 60px;
     padding-bottom: 30px;
-    padding-left: 60px;
-    padding-right: 60px;
     background: #FFFBF7;
     color: #2A2A2A;
 }
@@ -138,9 +121,8 @@ body {
 
 .photome{
     height: 60vh;
-    width: 80vw;
-    margin-left: 10%;
-    background-image: url('../assets/me1.JPG');
+    width: 100%;
+    background-image: url('../assets/me2.JPG');
     margin-top: 20px;
     background-attachment: scroll;
     background-position: center;
