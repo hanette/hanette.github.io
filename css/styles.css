@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+}
+
+
+/* ============================== */
+/* navigation bar */
+#navbar {
+  z-index: 99999;
+  overflow: hidden;
+  background-color: #F9F9F9;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #ECECEC;
+}
+
+#navbar a { /* Style the navigation bar links */
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar a.right { /* Right-aligned link */
+  float: right;
+}
+
+#navbar a:hover { /* Change color on hover */
+  font-weight: bold;
+}
+
+#navbar .icon {
+  display: none;
+}
+
+/* sticky navbar to scroll */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* ============================== */
+/* header */
+.header {
+   display: block;
+   text-align: center;
+   color: #F9F9F9;
+   height: 350px;
+   width: 100%;
+   background-color: #2A2A2A;
+   overflow: hidden;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  display: block;
+  padding-top: 90px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 100px;
+
+}
+
+/* Column Section */
+.column{
+    text-align: left;
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.column33{
+    text-align: left;
+    float: left;
+    width: 33%;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+.columnrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ============================== */
+/* Content Section */
+.content {
+    font-size: 25px;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    background: #FFFBF7;
+    color: #2A2A2A;
+}
+
+/* Clear floats after the columns */
+.content:after,
+.content:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ============================== */
+/* Photos */
+.photo{
+   height: 50vh;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+
+.photoplay{
+    height: 50vh;
+    background-image: url('../assets/playtest.JPG');
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.photome{
+    height: 60vh;
+    width: 100%;
+    background-image: url('../assets/me2.jpg');
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photoproj{
+    height: 50vh;
+    background-image: url('../assets/projectcover.png');
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.button {
+   background-color: #2A2A2A;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 900;
+}
+
+.button:hover{
+     background-color: #151515;
+}
+
+/* ============================== */
+/* Gallery Section */
+
+.gallery:hover {
+  background-color: #DADADA;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.desc {
+  padding: 14px;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.galleryresponsive {
+  padding: 6px;
+  width: 12.49999%;
+  display: inline-block;
+}
+
+/* ============================== */
+/* Footer */
+.footer {
+    clear:both;
+    padding: 10px;
+    text-align: center;
+    background: #FAF2E4;
+}
+
+
+/* Half-Screen Layout */
+
+@media only screen and (max-width: 970px) {
+   .title{
+      padding-top: 100px;
+      font-size: 80px;
+   }
+
+  .column{
+      width:100%;
+      font-size: 20px;
+  }
+
+  .column33{
+      width:100%;
+      font-size: 20px;
+  }
+
+  .content{
+   padding-left: 20px;
+  }
+
+  .slideshowContainer{
+     margin: 0px;
+ }
+
+  .galleryresponsive {
+    width: 100%;
+    margin: 6px;
+    overflow: hidden;
+  }
+}
+
+/* Responsive Navbar Size */
+@media only screen and (max-width:767px) {
+   #navbar a:not(:first-child) {display: none;}
+   #navbar a.icon {
+      float: right;
+      display: block;
+   }
+
+   #navbar.responsive {position: relative;}
+   #navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+   #navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+   }
+}
+
+/* Mobile Layout */
+@media only screen and (max-width: 600px) {
+   .header{
+      height:150px;
+   }
+
+   .title{
+      padding-top: 35px;
+      font-size: 50px;
+   }
+
+
+  .slideshowContainer{
+     margin: 0px;
+ }
+
+  .galleryresponsive {
+    width: 100%;
+    margin: 6px;
+    overflow: hidden;
+  }
+}
