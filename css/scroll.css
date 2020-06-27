@@ -48,11 +48,11 @@
 /* Growing bar ====================================*/
 .bar-beginner{
    font-family: 'Poppins',sans-serif;
-   color: #D42F00;
+   color: #D4BA00;
    width: 10px;
    height: 40px;
    display: block;
-   background: #FF6237;
+   background: #FFDB37;
    transition: width 1s;
    opacity: 0;
 }
@@ -63,11 +63,11 @@
 
 .bar-familiar{
    font-family: 'Poppins',sans-serif;
-   color: #D42F00;
+   color: #D47400;
    width: 10px;
    height: 40px;
    display: block;
-   background: #FF6237;
+   background: #FF9E37;
    transition: width 1s;
    opacity: 0;
 }
@@ -78,10 +78,10 @@
 
 .bar-proficient{
    font-family: 'Poppins',sans-serif;
-   color: #D42F00;
+   color: #D44D00;
    width: 10px;
    height: 40px;
-   background: #FF6237;
+   background: #FF7A37;
    display: block;
    transition: width 1s;
    opacity: 0;
@@ -93,11 +93,11 @@
 
 .bar-expert{
    font-family: 'Poppins',sans-serif;
-   color: #D42F00;
+   color: #D41A00;
    width: 10px;
    height: 40px;
    display: block;
-   background: #FF6237;
+   background: #FF5237;
    transition: width 1s;
    opacity: 0;
 }
