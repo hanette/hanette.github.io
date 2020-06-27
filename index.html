@@ -7,6 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
    <link href="css/styles.css" rel="stylesheet" type="text/css">
+   <link href="css/scroll.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -24,7 +25,7 @@
 
    <!-- header -->
    <div class="header">
-      <div class = "title">HANETTE LE</div>
+      <div class = "title show-on-scroll inline-up-tilt">HANETTE LE</div>
    </div>
 
    <!-- Photo of Hanette distortion -->
@@ -32,18 +33,18 @@
 
    <!-- Education -->
    <div class="content">
-      <h1>EDUCATION</h1>
+      <h1 class="show-on-scroll inline-right">EDUCATION</h1>
 
       <!-- First Half of Education -->
       <div class="column">
-         <h2>DEGREES</h2>
-         <h3>University of California, Santa Cruz</h3>
-         <p>B.S. in Computer Science: Computer Game Design<br>
+         <h2  class="show-on-scroll inline-right" style="transition-delay: 0.20s">DEGREES</h2>
+         <h3 class="show-on-scroll inline-right" style="transition-delay: 0.3s">University of California, Santa Cruz</h3>
+         <p class="show-on-scroll inline-right" style="transition-delay: 0.3s">B.S. in Computer Science: Computer Game Design<br>
             SEPTEMBER 2016 − JUNE 2020<br>
             GPA: 3.78
          </p>
-         <h3>Piedmont Hills High School − San Jose</h3>
-         <p>High School Diploma<br>OCTOBER 2012 −  MAY 2016<br>
+         <h3 class="show-on-scroll inline-right" style="transition-delay: 0.3s">Piedmont Hills High School − San Jose</h3>
+         <p class="show-on-scroll inline-right" style="transition-delay: 0.3s">High School Diploma<br>OCTOBER 2012 −  MAY 2016<br>
             GPA: 3.65
          </p>
       </div>
@@ -56,32 +57,32 @@
 
    <!-- Award  -->
    <div class="content" style="padding-bottom: 50px; background-color: #2A2A2A; color: #F9F9F9;">
-      <h2>AWARDS</h2>
+      <h2 class="show-on-scroll inline-right">AWARDS</h2>
       <!-- Award 1 -->
       <div class="column33">
-         <h3>UCSC Dean's Honors (2016-2020)</h3>
-         <p>Awarded to degree-seeking students who earn 15 credits, and a qualifying grade point average for the quarter.</p>
-         <div class="column">
+         <h3 class="show-on-scroll inline-right" style="transition-delay: 0.25s">UCSC Dean's Honors (2016-2020)</h3>
+         <p class="show-on-scroll inline-right" style="transition-delay: 0.3s">Awarded to degree-seeking students who earn 15 credits, and a qualifying grade point average for the quarter.</p>
+         <div class="column show-on-scroll inline-right" style="transition-delay: 0.3s">
             2016: Fall<br>
             2017: Fall, Spring, Winter<br>
             2018: Spring, Fall
          </div>
-         <div class="column">
+         <div class="column show-on-scroll inline-right" style="transition-delay: 0.3s">
             2019: Spring, Fall<br>
             2020: Winter
          </div>
       </div>
       <!-- Award 2 -->
       <div class="column33">
-         <h3>UCSC Awards (2020)</h3>
-         <p>• Honors in Engineering<br>
+         <h3 class="show-on-scroll inline-right" style="transition-delay: 0.25s">UCSC Awards (2020)</h3>
+         <p class="show-on-scroll inline-right" style="transition-delay: 0.3s">• Honors in Engineering<br>
             • Candidate for University Honors<br>
             • College Service Award</p>
       </div>
       <!-- Award 3 -->
       <div class="column33">
-         <h3>Henry Montoya Award (May, 2015)</h3>
-         <p>Scholarship and honors award for outstanding performance and work in SVCTE Animation Department.</p>
+         <h3 class="show-on-scroll inline-right" style="transition-delay: 0.25s">Henry Montoya Award (May, 2015)</h3>
+         <p class="show-on-scroll inline-right" style="transition-delay: 0.3s">Scholarship and honors award for outstanding performance and work in SVCTE Animation Department.</p>
       </div>
    </div>
 
@@ -90,20 +91,105 @@
 
    <!-- Skills -->
    <div class="content">
-      <h2>Graphic & Web Software</h2>
-      <div class="column" style="font-family: 'Poppins', san-serif;">
-         ‣ Unity<br>
-         ‣ Phaser<br>
-         ‣ Twine<br>
-         ‣ Adobe Photoshop<br>
-         ‣ Adobe Animate<br>
-         ‣ Adobe Illustrator<br>
-         ‣ Adobe InDesign<br>
-         ‣ Google Docs, Slides, Spreadsheet<br>
-         ‣ Sony Vegas Movie Studio<br>
-         ‣ Autodesk Maya<br>
-         ‣ Aseprite<br>
-         ‣ GIMP<br>
+      <h2 class="show-on-scroll inline-right">Graphic & Web Software</h2>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- Unity -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         Unity
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-proficient"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- Phaser -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         Phaser
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-proficient"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- Twine -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         Unity
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-expert"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- Photoshop -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         Photoshop
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-proficient"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- Illustrator -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         Illustrator
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-expert"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- Animate -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         Animate
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-expert"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- InDesign -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         InDesign
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-proficient"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- G Suite -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         G Suite
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-expert"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- Sony Vegas Movie Studio -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         Sony Vegas Movie Studio
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-expert"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- Autodesk Maya -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         Autodesk Maya
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-proficient"></div>
+      </div>
+   </div>
+   <div class="content" style="padding-top:0; padding-bottom:10px;"> <!-- Aseprite -->
+      <div class="show-on-scroll bar-info1" style="font-family: 'Poppins', san-serif;">
+         <img src="assets/github-icon.png" style="width:40px; height:40px; margin-right:10px;">
+         Aseprite
+      </div>
+      <div class="bar-info2">
+         <div class="show-on-scroll bar-proficient"></div>
       </div>
    </div>
 
@@ -135,10 +221,12 @@
          <a href="https://github.com/hanette" style = "text-decoration: none;">
             <img src="assets/github-icon.png" style=""width="43" height="43">
          </a>
-      </p>
+      </p>show-on-scroll
    </div>
    <!-- script added last -->
    <script type=text/javascript src="js/main.js"></script>
+   <script type=text/javascript src="js/show-on-scroll.js"></script>
+   <!-- <script type=text/javascript src="js/show-on-scroll.js"></script> -->
 
 </body>
 </html>

@@ -1,0 +1,112 @@
+/* BOTTOM to UP ================================= */
+/* Tilt transition bottom to up */
+.inline-up-tilt {
+   opacity: 0;
+   transform: translateY(4em) rotateZ(-5deg);
+   transition: transform 3s .25s cubic-bezier(0,1,.3,1),
+   opacity .3s .25s ease-out;
+   width: 100%;
+   will-change: transform, opacity;
+}
+
+.inline-up-tilt.is-visible {
+   opacity: 1;
+   transform: rotateZ(-1deg);
+}
+
+/* Straight Transition bottom to up */
+.inline-up {
+   opacity: 0;
+   transform: translateY(4em);
+   transition: transform 3s .25s cubic-bezier(0,1,.3,1),
+   opacity .3s .25s ease-out;
+   width: 100%;
+   will-change: transform, opacity;
+}
+
+.inline-up.is-visible {
+   opacity: 1;
+   transform: rotateZ(0deg);
+}
+
+/* LEFT to RIGHT ================================= */
+/*  Straight Transition bottom to up */
+.inline-right {
+   opacity: 0;
+   transform: translateX(-4em);
+   transition: transform 2s .25s cubic-bezier(0,1,.3,1),
+   opacity .2s .25s ease-out;
+   width: 100%;
+   will-change: transform, opacity;
+}
+
+.inline-right.is-visible {
+   opacity: 1;
+   transform: rotateZ(0deg);
+}
+
+/* Growing bar ====================================*/
+.bar-beginner{
+   width: 10px;
+   height: 40px;
+   display: block;
+   background: #FF6237;
+   transition: width 1s;
+   opacity: 0;
+}
+.bar-beginner.is-visible{
+   opacity: 1;
+   width: 20%;
+}
+
+.bar-familiar{
+   width: 10px;
+   height: 40px;
+   display: block;
+   background: #FF6237;
+   transition: width 1s;
+   opacity: 0;
+}
+.bar-familiar.is-visible{
+   opacity: 1;
+   width: 40%;
+}
+
+.bar-proficient{
+   width: 10px;
+   height: 40px;
+   background: #FF6237;
+   display: block;
+   transition: width 1s;
+   opacity: 0;
+}
+.bar-proficient.is-visible{
+   opacity: 1;
+   width: 60%;
+}
+
+.bar-expert{
+   width: 10px;
+   height: 40px;
+   display: block;
+   background: #FF6237;
+   transition: width 1s;
+   opacity: 0;
+}
+.bar-expert.is-visible{
+   opacity: 1;
+   width: 80%;
+}
+
+.bar-master{
+   width: 10px;
+   height: 40px;
+   display: block;
+   background: #FF6237;
+   transition: width 1s;
+   opacity: 0;
+}
+.bar-master.is-visible{
+   opacity: 1;
+   width: 90%;
+}
