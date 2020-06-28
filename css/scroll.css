@@ -46,6 +46,11 @@
 }
 
 /* Growing bar ====================================*/
+/* Blue Version of the bar:
+ familiar: background: #37A0FF; color:#007CD4;
+ proficient: background: #377BFF; color:#0055D4;
+ expert: background: #4237FF; color:#1400D4;
+ */
 .bar-beginner{
    font-family: 'Poppins',sans-serif;
    color: #D4BA00;
