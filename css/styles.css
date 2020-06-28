@@ -325,6 +325,8 @@ body {
 
   .slideshowContainer{
      margin: 0px;
+     padding-left: 0;
+     width: 100%;
  }
 
   .galleryresponsive {
