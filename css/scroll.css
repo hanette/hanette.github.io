@@ -29,6 +29,22 @@
    transform: rotateZ(0deg);
 }
 
+/* BOTTOM to UP ================================= */
+/* Straight Transition bottom to up */
+.inline-down {
+   opacity: 0;
+   transform: translateY(-0.5em);
+   transition: transform 3s .25s cubic-bezier(0,1,.3,1),
+   opacity .3s .25s ease-out;
+   width: 100%;
+   will-change: transform, opacity;
+}
+
+.inline-down.is-visible {
+   opacity: 1;
+   transform: rotateZ(0deg);
+}
+
 /* LEFT to RIGHT ================================= */
 /*  Straight Transition bottom to up */
 .inline-right {

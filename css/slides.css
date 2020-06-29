@@ -67,7 +67,7 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #FFECE2;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -77,7 +77,7 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #B6A49B;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -87,7 +87,7 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #B6A49B;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -95,7 +95,7 @@ img {vertical-align: middle;}
 
 
 .slideactive {
-  background-color: #717171;
+  background-color: #986155;
 }
 
 /* Fading animation */
