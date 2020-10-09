@@ -379,4 +379,7 @@ body {
     margin: 6px;
     overflow: hidden;
   }
+  .modal-content{
+     height: 80%;
+ }
 }
