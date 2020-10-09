@@ -105,6 +105,45 @@ body {
 }
 
 /* ============================== */
+/* Modal Section */
+.modal {
+  font-family: 'Poppins', sans-serif;
+  display: block; /* Show by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0; top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #2A2A2A;
+  color: white;
+  margin: auto;
+  padding: 20px;
+  width: 60%;
+  height: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* ============================== */
 /* Content Section */
 .content {
     font-size: 25px;
@@ -163,7 +202,7 @@ body {
 }
 
 .button {
-   background-color: #2A2A2A;
+   background-color: #FF6237;
    color: white;
    padding: 12px 20px;
    border: none;
@@ -171,10 +210,11 @@ body {
    cursor: pointer;
    font-family: 'Poppins', sans-serif;
    font-weight: 900;
+   font-size: 20px;
 }
 
 .button:hover{
-     background-color: #151515;
+     background-color: #FE410D;
 }
 
 /* ============================== */
@@ -234,9 +274,6 @@ body {
 }
 
 /* ============================== */
-/* PDF*/
-
-/* ============================== */
 /* Footer */
 .footer {
     clear:both;
@@ -271,7 +308,7 @@ body {
   .bar-info2{
      width:45%;
   }
-  
+
   .pdf{
      width:100%;
   }
