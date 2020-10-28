@@ -28,15 +28,3 @@ function SmallNavbar() {
     x.className = "navbar";
   }
 }
-
-// =============================
-// Modal and Close span
-var modal = document.getElementById("homeModal");
-var span = document.getElementsByClassName("close")[0];
-function modalClose(){
-   modal.style.display = "none";
-}
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
